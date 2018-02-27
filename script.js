@@ -12,3 +12,11 @@ console.log("string:", string);
 var DNA = "GCAT";
 var RNA = DNA.replace(/T/g, "U");
 console.log("RNA:", RNA);
+
+// Challenge #4
+var animal = "AlliGATor";
+if (animal.toUpperCase() === "ALLIGATOR") {
+    console.log("small");
+} else {
+    console.log("wide");
+}
