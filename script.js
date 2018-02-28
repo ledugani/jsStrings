@@ -20,3 +20,12 @@ if (animal.toUpperCase() === "ALLIGATOR") {
 } else {
     console.log("wide");
 }
+
+// Challenge #5
+var str = 'IBMWLOVEbmcatsbmw';
+var myElement = document.getElementById('my-div');
+myElement.innerHTML = '<h1>' + str.replace(/[BMWbmw]/g, " ") + '<h1>';
+
+// console.log(
+//     str.replace(/[BMWbmw]/g, " ")
+// );
